@@ -1,0 +1,30 @@
+html{
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    display: block;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: yellow;
+    height: 100%;
+  }
+
+  main{
+    height: 50%;
+  }
+  
+  .titulo {
+    color: red;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  }
+  
+  input[type=number] { -moz-appearance:textfield; }
